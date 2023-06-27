@@ -8,6 +8,10 @@ arXiv:YYMM.numbervV
 
     
 ###  1. <a name='Image-enhance'></a>Image-enhance
+* DegAE (CVPR 2023)：
+  * paper：https://openaccess.thecvf.com/content/CVPR2023/papers/Liu_DegAE_A_New_Pretraining_Paradigm_for_Low-Level_Vision_CVPR_2023_paper.pdf
+  * code：None
+  * 简介：提出了一种新的预训练范式，称为降级自编码器(DegAE)。DegAE遵循设计借口任务以进行自我监督预训练的思想，并专门针对低层视觉进行了精心定制(针对Low-Level任务)。
 
 ###  2. <a name='Video-enhance'></a>Video-enhance
 
