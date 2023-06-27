@@ -9,7 +9,7 @@ arXiv:YYMM.numbervV
     
 ###  1. <a name='Image-enhance'></a>Image-enhance
 
-###  2. <a name='Repaire-Enhance'></a>Repaire-Enhance
+###  2. <a name='Video-enhance'></a>Video-enhance
 
 #### 2.1 视频超分
 * STDO-CVPR2023：
