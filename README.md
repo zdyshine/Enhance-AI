@@ -11,16 +11,23 @@ arXiv:YYMM.numbervV
 
 ###  2. <a name='Video-enhance'></a>Video-enhance
 
-#### 2.1 视频超分
-* STDO-CVPR2023：
-  * paper：https://arxiv.org/abs/2303.08331
-  * code：https://github.com/coulsonlee/STDO-CVPR2023
-  * 简介：该方法利用了空间-时间信息来准确地将视频划分为块，从而使块的数量和模型大小保持最小。此外，我们通过数据感知联合训练技术将我们的方法推进到单个过拟合模型中，这进一步降低了存储要求并几乎没有质量损失。我们在一个现成的移动电话上部署了我们的模型，方法能够在实时视频超分辨率的同时保持高视频质量。
-
+#### 2.1 Real视频超分
 * EAVSR (CVPRW 2023)：
   * paper：https://openaccess.thecvf.com/content/CVPR2023W/NTIRE/papers/Wang_Benchmark_Dataset_and_Effective_Inter-Frame_Alignment_for_Real-World_Video_Super-Resolution_CVPRW_2023_paper.pdf
   * code：https://github.com/HITRainer/EAVSR
   * 简介：构建了一个真实世界×4 VSR数据集，其中分别使用智能手机的不同焦距镜头拍摄低分辨率和高分辨率视频。此外，提出了一种有效的真实世界VSR对齐方法，即EAVSR。
+
+* SRWD-CVPR2023：
+  * paper：https://arxiv.org/pdf/2305.02660.pdf
+  * code：None
+  * 简介：提出了在合成训练数据集中合成真实世界降质的方法。所提出的合成真实世界降质(SRWD)包括模糊、噪声、下采样、像素分箱和图像和视频压缩伪影的组合。然后，我们提出了使用基于随机洗牌的策略来模拟这些降质在训练数据集上的模拟，并在所提出的更真实的合成训练数据集上训练单个端到端深度神经网络(DNN)。
+    
+
+#### 2.1 通用视频超分
+* STDO-CVPR2023：
+  * paper：https://arxiv.org/abs/2303.08331
+  * code：https://github.com/coulsonlee/STDO-CVPR2023
+  * 简介：该方法利用了空间-时间信息来准确地将视频划分为块，从而使块的数量和模型大小保持最小。此外，我们通过数据感知联合训练技术将我们的方法推进到单个过拟合模型中，这进一步降低了存储要求并几乎没有质量损失。我们在一个现成的移动电话上部署了我们的模型，方法能够在实时视频超分辨率的同时保持高视频质量。
  
 * GBR-WNN-2023：
   * paper：https://arxiv.org/pdf/2106.07190.pdf
