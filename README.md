@@ -48,6 +48,11 @@
   * paper：https://www.sciencedirect.com/science/article/abs/pii/S1568494623004404
   * code：https://github.com/YounggjuuChoi/HiRN
   * 简介：提出了基于特征演变的分层递归神经网络(HiRN)。所提出的HiRN是基于分层递归传播和基于时间小波注意力(TWA)模块的残差块骨干网络设计的。分层递归传播包含两个阶段，以结合基于低帧率的前向和后向方案的优势和多帧率的双向访问结构。
+
+* FTVSR (ECCV 2022：
+  * paper：https://arxiv.org/pdf/2208.03012.pdf
+  * code：https://github.com/researchmm/FTVSR
+  * 简介：提出了一种新的频率变换器(FTVSR),用于压缩视频超分辨率，该变换器在空间-时间-频率联合域上执行自注意力。在细节的恢复上看起来比BasicVSR好，待实测。
  
 ###  3. <a name='Video-Interpolation'></a>Video-Interpolation
 * Exploring-Discontinuity-for-VFI (CVPR 2023)：
