@@ -1,10 +1,10 @@
 # Enhance-AI
 开源的图像/视频修复增强算法    
-arXiv:YYMM.numbervV
 
 ## 目录
   - [1. Image-enhance](#1-Image-enhance)
   - [2. Video-enhance](#2-Video-enhance)
+  - [3. Video-Interpolation](#3-Video-Interpolation)
 
     
 ###  1. <a name='Image-enhance'></a>Image-enhance
@@ -27,7 +27,7 @@ arXiv:YYMM.numbervV
   * 简介：提出了在合成训练数据集中合成真实世界降质的方法。所提出的合成真实世界降质(SRWD)包括模糊、噪声、下采样、像素分箱和图像和视频压缩伪影的组合。然后，我们提出了使用基于随机洗牌的策略来模拟这些降质在训练数据集上的模拟，并在所提出的更真实的合成训练数据集上训练单个端到端深度神经网络(DNN)。
     
 
-#### 2.1 通用视频超分
+#### 2.2 通用视频超分
 * STDO-CVPR2023：
   * paper：https://arxiv.org/abs/2303.08331
   * code：https://github.com/coulsonlee/STDO-CVPR2023
@@ -42,3 +42,10 @@ arXiv:YYMM.numbervV
   * paper：https://www.sciencedirect.com/science/article/abs/pii/S1568494623004404
   * code：https://github.com/YounggjuuChoi/HiRN
   * 简介：提出了基于特征演变的分层递归神经网络(HiRN)。所提出的HiRN是基于分层递归传播和基于时间小波注意力(TWA)模块的残差块骨干网络设计的。分层递归传播包含两个阶段，以结合基于低帧率的前向和后向方案的优势和多帧率的双向访问结构。
+ 
+###  3. <a name='Video-Interpolation'></a>Video-Interpolation
+* Exploring-Discontinuity-for-VFI (CVPR 2023)：
+  * paper：https://openaccess.thecvf.com/content/CVPR2023/papers/Lee_Exploring_Discontinuity_for_Video_Frame_Interpolation_CVPR_2023_paper.pdf
+  * code：https://github.com/pandatimo/Exploring-Discontinuity-for-VFI
+  * 简介：提出了三项技术，可以使现有基于深度学习的视频流推断(VFI)架构对包含各种不自然物体和不连续运动的实际视频具有鲁棒性。
+  * 测试说明：
