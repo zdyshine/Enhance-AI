@@ -8,6 +8,13 @@
 
     
 ###  1. <a name='Image-enhance'></a>Image-enhance
+#### 1.1 通用超分
+* WaveMixSR：
+  * paper：https://arxiv.org/pdf/2307.00430v1.pdf
+  * code：https://github.com/pranavphoenix/WaveMixSR
+  * 简介：提出了一种新的神经网络——WaveMixSR,用于基于WaveMix架构的图像超分辨率，它使用2D离散小波变换进行空间标记混合。与基于Transformer的模型不同，WaveMixSR不会将图像展开为像素/块序列。相反，它利用卷积的内积偏置以及小波变换的无损标记混合性质来实现更高的性能，同时需要较少的资源和训练数据。
+
+
 * DegAE (CVPR 2023)：
   * paper：https://openaccess.thecvf.com/content/CVPR2023/papers/Liu_DegAE_A_New_Pretraining_Paradigm_for_Low-Level_Vision_CVPR_2023_paper.pdf
   * code：None
