@@ -8,12 +8,24 @@
 
     
 ###  1. <a name='Image-enhance'></a>Image-enhance
-#### 1.1 通用超分
+#### 1.1 Real超分
+* ResShift：
+  * paper：-
+  * code：https://github.com/zsyOAOA/ResShift
+  * 简介：提出了一种新颖且高效的SR扩散模型，显著减少了扩散步骤的数量，从而消除了推理过程中的后加速需求及其相关的性能下降。此外，还开发了一个详细的噪声调度，以灵活地控制扩散过程中的平移速度和噪声强度
+
+* GDSSR：
+  * paper：https://ieeexplore.ieee.org/document/10041757
+  * code：https://github.com/chiyich/GDSSR
+  * 简介：使用了一个轻量级的全局退化提取器来提取全局退化特征，这可以方便地独立恢复更好的局部区域，并强制片间一致性。此外，我们还提出了一种局部和全局片段的联合训练方法，在训练过程中进行全局监督，这可以增强退化估计并恢复更加自然的结果。
+  * 其他： 更加细致化的实现了以前的尝试即：两路输入，一路是全图，一路是局部图，用全图支路作为信息互补，监督局部图。
+
+
+#### 1.2 通用超分
 * WaveMixSR：
   * paper：https://arxiv.org/pdf/2307.00430v1.pdf
   * code：https://github.com/pranavphoenix/WaveMixSR
   * 简介：提出了一种新的神经网络——WaveMixSR,用于基于WaveMix架构的图像超分辨率，它使用2D离散小波变换进行空间标记混合。与基于Transformer的模型不同，WaveMixSR不会将图像展开为像素/块序列。相反，它利用卷积的内积偏置以及小波变换的无损标记混合性质来实现更高的性能，同时需要较少的资源和训练数据。
-
 
 * DegAE (CVPR 2023)：
   * paper：https://openaccess.thecvf.com/content/CVPR2023/papers/Liu_DegAE_A_New_Pretraining_Paradigm_for_Low-Level_Vision_CVPR_2023_paper.pdf
@@ -66,6 +78,11 @@
   * paper：https://arxiv.org/pdf/2208.03012.pdf
   * code：https://github.com/researchmm/FTVSR
   * 简介：提出了一种新的频率变换器(FTVSR),用于压缩视频超分辨率，该变换器在空间-时间-频率联合域上执行自注意力。在细节的恢复上看起来比BasicVSR好，待实测。
+    
+* EgoVSR (ECCV 2022)：
+  * paper：https://arxiv.org/pdf/2305.14708.pdf
+  * code：https://github.com/chiyich/EGOVSR
+  * 简介：由于捕获设备和场景的限制，自中心视频通常具有较低的视觉质量，主要由高压缩和严重的运动模糊引起，现有的针对第三人称视角视频的视频超分辨率(VSR)工作实际上并不适合处理由快速自我运动和物体运动引起的模糊伪影。为此，提出了一种专门针对自中心视频的VSR框架EgoVSR。在VSR框架中明确使用双分支去模糊网络(DB2Net)解决自中心视频中的运动模糊问题。
  
 ###  3. <a name='Video-Interpolation'></a>Video-Interpolation
 * Exploring-Discontinuity-for-VFI (CVPR 2023)：
