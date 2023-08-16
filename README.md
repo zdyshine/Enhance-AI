@@ -62,6 +62,12 @@
   * code：https://github.com/lenubolim/textdiff
   * 简介：包含两个模块：文本增强模块（TEM）和掩膜引导残差扩散模块（MRD）。TEM生成一个初始去模糊的文本图像和一个编码文本空间位置的掩膜。MRD负责通过建模原始图像与初始去模糊图像之间的残差来有效锐化文本边缘。
 
+#### 1.4 人脸修复
+* PGDiff (Arxiv 2024)：
+  * paper：None
+  * code：https://github.com/pq-yang/PGDiff
+  * 简介：-
+
 
 ###  2. <a name='Video-enhance'></a>Video-enhance
 
