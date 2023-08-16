@@ -27,7 +27,12 @@
   * 简介：我们提出了一种适用于部署的Transformer单元，即UFONE(即UnFolding ONce is Enough),以解决这些问题。在每个UFONE中，我们引入了一个内部补丁Transformer层(ITL),以有效地从补丁中重构局部结构信息，以及一个空间感知层(SAL),以利用补丁之间的长距离依赖关系。基于UFONE,我们为SISR任务提出了一种适用于部署的内部补丁Transformer网络(DITN),它可以在训练和部署平台上实现低延迟和低内存使用的良好性能。此外，为了进一步提高我们在TensorRT上部署DITN的效率，我们还为层归一化提供了一种有效的替代方案，并为特定操作符提出了融合优化策略
   * 其他： 可尝试在此基础上进行训练
 
-
+* StarSRGAN：
+  * paper：https://arxiv.org/pdf/2307.16169.pdf
+  * code：https://github.com/kynthesis/StarSRGAN
+  * 简介：通过实施最近的技术，仍然有改进Real-ESRGAN超分辨率质量的空间。本研究论文介绍了StarSRGAN，这是一种为盲超分辨率任务设计的新颖GAN模型，它利用了五种不同的架构。
+  * 其他：StarSRGAN Lite提供大约7.5倍更快的重建速度（从540p实时上采样到4K），但仍然可以保持近90%的图像质量，从而为未来的实时SR体验的开发提供了便利。
+  
 #### 1.2 通用超分
 * WaveMixSR：
   * paper：https://arxiv.org/pdf/2307.00430v1.pdf
@@ -50,6 +55,13 @@
   * code：https://github.com/HVision-NKU/SRFormer
   * 简介：提出了 SRFormer在享受大窗口自注意力好处的同时引入了更少的计算负担。本文SRFormer的核心是置换自注意力 (PSA)，它在通道和空间信息之间取得了适当的平衡以进行自注意力。所提出的PSA很简单，可以很容易地应用于现有的基于窗口自注意力的超分辨率网络中
   * 其他：在本文中，作者并不是直接缩减的空间尺度，而是先缩小通道维度，之后把通道维的缩小迁移到空间维的缩小。这一即使HW维度变小了，但是由于是通过permute置换得到的，因此并没有丢失空间信息。这一设计也最终帮助实现了在增大窗口大小的同时不带来复杂度上升。
+
+#### 1.3 文本超分
+* TextDiff(AAAI2024)：
+  * paper：https://arxiv.org/pdf/2308.06743v1.pdf
+  * code：https://github.com/lenubolim/textdiff
+  * 简介：包含两个模块：文本增强模块（TEM）和掩膜引导残差扩散模块（MRD）。TEM生成一个初始去模糊的文本图像和一个编码文本空间位置的掩膜。MRD负责通过建模原始图像与初始去模糊图像之间的残差来有效锐化文本边缘。
+
 
 ###  2. <a name='Video-enhance'></a>Video-enhance
 
