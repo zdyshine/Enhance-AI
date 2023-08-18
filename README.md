@@ -5,6 +5,7 @@
   - [1. Image-enhance](#1-Image-enhance)
   - [2. Video-enhance](#2-Video-enhance)
   - [3. Video-Interpolation](#3-Video-Interpolation)
+  - [4. Diffusion-other](#4-Diffusion-other)
 
     
 ###  1. <a name='Image-enhance'></a>Image-enhance
@@ -121,3 +122,9 @@
   * code：https://github.com/pandatimo/Exploring-Discontinuity-for-VFI
   * 简介：提出了三项技术，可以使现有基于深度学习的视频流推断(VFI)架构对包含各种不自然物体和不连续运动的实际视频具有鲁棒性。
   * 测试说明：
+
+###  4. <a name='Diffusion'></a>Diffusion
+* ShadowDiffusion (CVPR 2023)：
+  * paper：https://arxiv.org/pdf/2212.04711.pdf
+  * code：https://github.com/GuoLanqing/ShadowDiffusion
+  * 简介：提出一种统一的扩散框架，名为ShadowDiffusion，来解决阴影去除问题。该框架整合了图像和退化先验，以实现高效的阴影去除。ShadowDiffusion逐步优化估计的阴影掩码，作为扩散生成器的辅助任务，从而生成更准确、更鲁棒的无阴影图像。
