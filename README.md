@@ -33,7 +33,12 @@
   * code：https://github.com/kynthesis/StarSRGAN
   * 简介：通过实施最近的技术，仍然有改进Real-ESRGAN超分辨率质量的空间。本研究论文介绍了StarSRGAN，这是一种为盲超分辨率任务设计的新颖GAN模型，它利用了五种不同的架构。
   * 其他：StarSRGAN Lite提供大约7.5倍更快的重建速度（从540p实时上采样到4K），但仍然可以保持近90%的图像质量，从而为未来的实时SR体验的开发提供了便利。
-  
+
+* FeMaSR(MM22 Oral)：
+  * paper：https://arxiv.org/pdf/2202.13142.pdf
+  * code：https://github.com/chaofengc/FeMaSR
+  * 简介：提出了特征匹配SR（FeMaSR），它在一个更紧凑的特征空间中恢复了逼真的HR图像。与图像空间方法不同，我们的FeMaSR通过将扭曲的LR图像“特征”匹配到我们的预训练HR先验中的无失真HR对应物，并通过解码匹配特征来获得逼真的HR图像来恢复HR图像。具体来说，我们的HR先验包含一个离散特征代码本及其相关的解码器，这些是在HR图像上使用向量量化生成对抗网络（VQGAN）预训练的。
+  * 其他: 基于高清图构建字典，然后嵌入到超分网络中进行图像恢复。
 #### 1.2 通用超分
 * WaveMixSR：
   * paper：https://arxiv.org/pdf/2307.00430v1.pdf
