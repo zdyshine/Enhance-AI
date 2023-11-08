@@ -39,6 +39,14 @@
   * code：https://github.com/chaofengc/FeMaSR
   * 简介：提出了特征匹配SR（FeMaSR），它在一个更紧凑的特征空间中恢复了逼真的HR图像。与图像空间方法不同，我们的FeMaSR通过将扭曲的LR图像“特征”匹配到我们的预训练HR先验中的无失真HR对应物，并通过解码匹配特征来获得逼真的HR图像来恢复HR图像。具体来说，我们的HR先验包含一个离散特征代码本及其相关的解码器，这些是在HR图像上使用向量量化生成对抗网络（VQGAN）预训练的。
   * 其他: 基于高清图构建字典，然后嵌入到超分网络中进行图像恢复。
+
+* VCISR：
+  * paper：https://arxiv.org/pdf/2311.00996.pdf
+  * code：https://github.com/Kiteretsu77/VCISR-official
+  * 简介：图片超分，基于混合退化方式，但是对图片进行切块处理，然后添加编码噪声:MPEG-2, MPEG-4, H.264, and H.265。暂未开源
+  * 其他: 待测试。
+
+
 #### 1.2 通用超分
 * WaveMixSR：
   * paper：https://arxiv.org/pdf/2307.00430v1.pdf
