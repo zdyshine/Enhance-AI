@@ -141,3 +141,13 @@
   * paper：https://arxiv.org/pdf/2212.04711.pdf
   * code：https://github.com/GuoLanqing/ShadowDiffusion
   * 简介：提出一种统一的扩散框架，名为ShadowDiffusion，来解决阴影去除问题。该框架整合了图像和退化先验，以实现高效的阴影去除。ShadowDiffusion逐步优化估计的阴影掩码，作为扩散生成器的辅助任务，从而生成更准确、更鲁棒的无阴影图像。
+
+* MCGdiff：
+  * paper：https://arxiv.org/pdf/2308.07983.pdf
+  * code：https://anonymous.4open.science/r/mcgdiff/README.md
+  * 简介：一种求解具有SGM先验的贝叶斯线性高斯逆问题的新方法，可用于图像修复、超分辨率、去模糊和着色等，待尝试
+* CFTL：
+  * paper：https://openreview.net/pdf/a0c1eaf9320c504f4fb60a2e480793af66eb2b79.pdf
+  * code：will
+  * 简介：一种图像增强的新视角，(通道维度傅里叶变换)，与增强网络无缝集成涨点,对多种图像增强任务（如暗光图像增强、曝光校正、SDR2HDR 转换和水下图像增强）
+    
