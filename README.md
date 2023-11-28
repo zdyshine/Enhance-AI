@@ -6,6 +6,7 @@
   - [2. Video-enhance](#2-Video-enhance)
   - [3. Video-Interpolation](#3-Video-Interpolation)
   - [4. Diffusion-other](#4-Diffusion-other)
+  - [5. BNN Restormer](#5-BNN-Restormer)
 
     
 ###  1. <a name='Image-enhance'></a>Image-enhance
@@ -40,12 +41,16 @@
   * 简介：提出了特征匹配SR（FeMaSR），它在一个更紧凑的特征空间中恢复了逼真的HR图像。与图像空间方法不同，我们的FeMaSR通过将扭曲的LR图像“特征”匹配到我们的预训练HR先验中的无失真HR对应物，并通过解码匹配特征来获得逼真的HR图像来恢复HR图像。具体来说，我们的HR先验包含一个离散特征代码本及其相关的解码器，这些是在HR图像上使用向量量化生成对抗网络（VQGAN）预训练的。
   * 其他: 基于高清图构建字典，然后嵌入到超分网络中进行图像恢复。
 
-* VCISR：
+* VCISR(WACV 2024)：
   * paper：https://arxiv.org/pdf/2311.00996.pdf
   * code：https://github.com/Kiteretsu77/VCISR-official
   * 简介：图片超分，基于混合退化方式，但是对图片进行切块处理，然后添加编码噪声:MPEG-2, MPEG-4, H.264, and H.265。暂未开源
   * 其他: 待测试。
-
+  
+* PromptSR(arXiv,2023)：
+  * paper：https://arxiv.org/pdf/2311.14282.pdf
+  * code：https://github.com/zhengchen1999/PromptSR
+  * 简介：设计一个文本图像生成管道，通过文本退化表示和退化模型将文本集成到 SR 数据集中。文本表示采用基于分箱方法的离散化方式来抽象地描述退化。
 
 #### 1.2 通用超分
 * WaveMixSR：
@@ -150,4 +155,14 @@
   * paper：https://openreview.net/pdf/a0c1eaf9320c504f4fb60a2e480793af66eb2b79.pdf
   * code：will
   * 简介：一种图像增强的新视角，(通道维度傅里叶变换)，与增强网络无缝集成涨点,对多种图像增强任务（如暗光图像增强、曝光校正、SDR2HDR 转换和水下图像增强）
-    
+
+###  5. <a name='BNN-Restormer'></a>BNN-Restormer
+* BiSCI (NeurIPS 2023)：
+  * paper：https://arxiv.org/pdf/2305.10299.pdf
+  * code：https://github.com/caiyuanhao1998/BiSCI
+  * 简介：二值化光谱重建算法。
+* BBCU（ICLR2023）：
+  * paper：https://arxiv.org/pdf/2210.00405.pdf
+  * code：https://github.com/Zj-BinXia/BBCU
+  * 简介：二值化图像恢复网络的基本二元卷积单元。
+
