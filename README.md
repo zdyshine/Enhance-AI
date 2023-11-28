@@ -166,3 +166,8 @@
   * code：https://github.com/Zj-BinXia/BBCU
   * 简介：二值化图像恢复网络的基本二元卷积单元。
 
+* QuantSR (NeurIPS 2023 spotlight) ：
+  * paper：https://openreview.net/pdf?id=3gamyee9Yh
+  * code：https://github.com/htqin/QuantSR
+  * 简介：二值化图像恢复网络的基本二元卷积单元。
+
