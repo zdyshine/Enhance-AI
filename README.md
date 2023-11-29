@@ -52,6 +52,11 @@
   * code：https://github.com/zhengchen1999/PromptSR
   * 简介：设计一个文本图像生成管道，通过文本退化表示和退化模型将文本集成到 SR 数据集中。文本表示采用基于分箱方法的离散化方式来抽象地描述退化。
 
+* SinSR(arXiv,2023)：
+  * paper：https://github.com/wyf0912/SinSR/blob/main/main.pdf
+  * code：https://github.com/wyf0912/SinSR
+  * 简介：一种单步基于扩散的图像超分辨率新网络，与之前的 SOTA 方法和教师模型相比，本方法只需一个采样步骤即可实现可比甚至更优越的性能，从而实现高达 10 倍的推理加速
+
 #### 1.2 通用超分
 * WaveMixSR：
   * paper：https://arxiv.org/pdf/2307.00430v1.pdf
