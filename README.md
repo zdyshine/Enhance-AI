@@ -116,7 +116,12 @@
   * paper：None
   * code：https://github.com/sczhou/Upscale-A-Video
   * 简介：基于扩散模型的时序稳定的Real-World超分
-  * 
+
+* StableVSR：
+  * paper：https://arxiv.org/pdf/2311.15908.pdf
+  * code：https://github.com/claudiom4sir/stablevsr
+  * 简介：基于扩散模型的时序稳定的Real-World超分
+ 
 #### 2.2 通用视频超分
 * STDO-CVPR2023：
   * paper：https://arxiv.org/abs/2303.08331
