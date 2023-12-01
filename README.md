@@ -112,7 +112,11 @@
   * 简介：提出了一种多尺度向量量化退化模型，用于动画视频超分辨率（VQD-SR）。该模型能够从全局结构中分解局部细节，并将现实世界动画视频中的退化先验知识转移至学习到的向量量化码本中，用于退化建模。为了提取先验知识，我们收集了丰富的内容实景动画低质量（RAL）视频数据集。
   * 其他：动画视频超分辨率（VQD-SR）
 
-
+* Upscale-A-Video ：
+  * paper：None
+  * code：https://github.com/sczhou/Upscale-A-Video
+  * 简介：基于扩散模型的时序稳定的Real-World超分
+  * 
 #### 2.2 通用视频超分
 * STDO-CVPR2023：
   * paper：https://arxiv.org/abs/2303.08331
