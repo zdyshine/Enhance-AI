@@ -57,6 +57,11 @@
   * code：https://github.com/wyf0912/SinSR
   * 简介：一种单步基于扩散的图像超分辨率新网络，与之前的 SOTA 方法和教师模型相比，本方法只需一个采样步骤即可实现可比甚至更优越的性能，从而实现高达 10 倍的推理加速
 
+* ITER(AAAI,2024)：
+  * paper：-
+  * code：https://github.com/chaofengc/ITER
+  * 简介：一种单步基于扩散的图像超分辨率新网络，与之前的 SOTA 方法和教师模型相比，本方法只需一个采样步骤即可实现可比甚至更优越的性能，从而实现高达 10 倍的推理加速
+
 #### 1.2 通用超分
 * WaveMixSR：
   * paper：https://arxiv.org/pdf/2307.00430v1.pdf
