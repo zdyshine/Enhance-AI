@@ -16,6 +16,11 @@
   * code：https://github.com/cswry/seesr
   * 简介：训练了一个退化感知的提示提取器，即使在严重的退化下也能生成准确 soft 和 hard 语义提示。hard 语义提示指的是图像标签，旨在增强T2I模型的局部感知能力，而soft 语义提示则是为了补充hard 提示提供额外的表示信息。这些语义提示可以鼓励T2I模型生成详细且语义准确的结果。
 
+* promptsr：
+  * paper：https://arxiv.org/pdf/2311.14282.pdf
+  * code：https://github.com/zhengchen1999/promptsr
+  * 简介：设计了一个文本-图像生成管道，通过文本退化表示和退化模型将文本集成到SR数据集中。文本表示采用基于分箱方法的离散化方式来抽象地描述退化。这种表示方法还可以保持语言的灵活性。同时，我们提出了PromptSR来实现文本提示SR。PromptSR采用了扩散模型和预训练的语言模型（例如T5和CLIP）
+    
 * coser：
   * paper：https://arxiv.org/pdf/2311.16512.pdf
   * code：https://github.com/vinhyu/coser
