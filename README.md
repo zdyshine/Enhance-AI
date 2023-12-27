@@ -11,6 +11,22 @@
     
 ###  1. <a name='Image-enhance'></a>Image-enhance
 #### 1.1 Real超分
+* SeeSR：
+  * paper：https://arxiv.org/pdf/2311.16518.pdf
+  * code：https://github.com/cswry/seesr
+  * 简介：训练了一个退化感知的提示提取器，即使在严重的退化下也能生成准确 soft 和 hard 语义提示。hard 语义提示指的是图像标签，旨在增强T2I模型的局部感知能力，而soft 语义提示则是为了补充hard 提示提供额外的表示信息。这些语义提示可以鼓励T2I模型生成详细且语义准确的结果。
+
+* coser：
+  * paper：https://arxiv.org/pdf/2311.16512.pdf
+  * code：https://github.com/vinhyu/coser
+  * 简介：该方法通过将图像外观和语言理解相结合，生成了一种认知嵌入，使SR模型能够理解低分辨率图像。为了进一步提高图像保真度，CoSeR提出了一种名为"All-in-Attention"的新条件注入方案，将所有条件信息整合到一个模块中。
+
+* StableSR：
+  * paper：https://arxiv.org/pdf/2305.07015.pdf
+  * code：https://github.com/IceClear/StableSR
+  * 简介：提出了一种新颖的方法，利用预训练的文本到图像扩散模型中包含的先验知识进行盲超分辨率（SR）。具体而言，通过使用我们的时间感知编码器，我们可以在不改变预训练的合成模型的情况下实现有希望的恢复结果，从而保留生成先验并最小化训练成本。为了弥补扩散模型固有的随机性导致的保真度损失，我们采用了一种可控特征包装模块，该模块允许用户通过在推理过程中简单地调整一个标量值来平衡质量和保真度。
+
+
 * ResShift：
   * paper：-
   * code：https://github.com/zsyOAOA/ResShift
@@ -101,6 +117,26 @@
 ###  2. <a name='Video-enhance'></a>Video-enhance
 
 #### 2.1 Real视频超分
+* Semantic-Lens-AAAI24 ：
+  * paper：https://arxiv.org/pdf/2312.09909.pdf
+  * code：https://github.com/Tang1705/Semantic-Lens-AAAI24
+  * 简介：从退化的视频中提取语义先验来解决视频中复杂的运动交织问题，从而提高整体性能。
+  * 
+* Upscale-A-Video ：
+  * paper：None
+  * code：https://github.com/sczhou/Upscale-A-Video
+  * 简介：基于扩散模型的时序稳定的Real-World超分
+
+* StableVSR：
+  * paper：https://arxiv.org/pdf/2311.15908.pdf
+  * code：https://github.com/claudiom4sir/stablevsr
+  * 简介：通过引入时间条件模块（TCM），将用于单幅图像超分辨率的预训练DM转换为VSR方法来实现这一点。TCM采用时间纹理引导，其提供来自相邻帧的空间对齐和详细的纹理信息，以引导当前帧的生成过程朝向高质量和时间上一致的结果。此外，我们引入了逐帧双向采样策略，该策略鼓励使用来自过去和未来帧的信息，从而提高结果的感知质量和帧间的时间一致性
+
+ * MGLD-VSR：
+  * paper：https://arxiv.org/pdf/2312.00853.pdf
+  * code：https://github.com/IanYeung/MGLD-VSR
+  * 简介：利用预先训练的潜在扩散模型并结合具有运动引导损失的时间模块，该算法可以生成保持连贯和连续视觉流的高质量HR视频
+  * 
 * EAVSR (CVPRW 2023)：
   * paper：https://openaccess.thecvf.com/content/CVPR2023W/NTIRE/papers/Wang_Benchmark_Dataset_and_Effective_Inter-Frame_Alignment_for_Real-World_Video_Super-Resolution_CVPRW_2023_paper.pdf
   * code：https://github.com/HITRainer/EAVSR
@@ -117,17 +153,12 @@
   * 简介：提出了一种多尺度向量量化退化模型，用于动画视频超分辨率（VQD-SR）。该模型能够从全局结构中分解局部细节，并将现实世界动画视频中的退化先验知识转移至学习到的向量量化码本中，用于退化建模。为了提取先验知识，我们收集了丰富的内容实景动画低质量（RAL）视频数据集。
   * 其他：动画视频超分辨率（VQD-SR）
 
-* Upscale-A-Video ：
-  * paper：None
-  * code：https://github.com/sczhou/Upscale-A-Video
-  * 简介：基于扩散模型的时序稳定的Real-World超分
-
-* StableVSR：
-  * paper：https://arxiv.org/pdf/2311.15908.pdf
-  * code：https://github.com/claudiom4sir/stablevsr
-  * 简介：基于扩散模型的时序稳定的Real-World超分
- 
 #### 2.2 通用视频超分
+* TMP：
+  * paper：https://arxiv.org/pdf/2312.09909.pdf
+  * code：https://github.com/xtudbxk/tmp
+  * 简介：提出了一种有效的时间运动传播（TMP）方法，该方法利用运动场的连续性来实现连续帧之间的快速像素级对齐。具体来说，我们首先将先前帧的偏移传播到当前帧，然后在邻域中对其进行细化，这显著减少了匹配空间并加快了偏移估计过程。此外，为了增强对齐的鲁棒性，我们对扭曲的特征进行空间加权，其中具有更精确偏移的位置被赋予更高的重要性
+    
 * STDO-CVPR2023：
   * paper：https://arxiv.org/abs/2303.08331
   * code：https://github.com/coulsonlee/STDO-CVPR2023
