@@ -113,7 +113,13 @@
   * 简介：包含两个模块：文本增强模块（TEM）和掩膜引导残差扩散模块（MRD）。TEM生成一个初始去模糊的文本图像和一个编码文本空间位置的掩膜。MRD负责通过建模原始图像与初始去模糊图像之间的残差来有效锐化文本边缘。
 
 #### 1.4 人脸修复
-* PGDiff (Arxiv 2024)：
+
+* BFRffusion(arXiv 202312)：
+  * paper：https://arxiv.org/pdf/2312.15736.pdf
+  * code：https://github.com/chenxx89/BFRffusion
+  * 简介：提出了一种BFRffusion算法，该算法能够有效地从低质量的人脸图像中提取特征，并利用预训练的Stable Diffusion算法的生成先验知识，恢复出真实可信的人脸细节。建立了一个具有平衡的种族、性别和年龄等属性的隐私保护人脸数据集PFHQ。
+    
+* PGDiff (Arxiv 2023)：
   * paper：None
   * code：https://github.com/pq-yang/PGDiff
   * 简介：-
@@ -128,7 +134,7 @@
   * 简介：从退化的视频中提取语义先验来解决视频中复杂的运动交织问题，从而提高整体性能。
   * 
 * Upscale-A-Video ：
-  * paper：None
+  * paper：https://arxiv.org/pdf/2312.06640.pdf
   * code：https://github.com/sczhou/Upscale-A-Video
   * 简介：基于扩散模型的时序稳定的Real-World超分
 
