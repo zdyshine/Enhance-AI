@@ -11,6 +11,11 @@
     
 ###  1. <a name='Image-enhance'></a>Image-enhance
 #### 1.1 Real超分
+* CCSR(arXiv 202401)：
+  * paper：https://arxiv.org/pdf/2401.00877.pdf
+  * code：https://github.com/csslc/CCSR
+  * 简介：内容一致超分辨率（CCSR）提出了一种非均匀时间步长的学习策略来训练紧凑的扩散网络，具有高效率和稳定性以再现图像主要结构，并微调变分自动编码器的预训练解码器（VAE）通过对抗性训练增强细节。可以显著降低基于扩散先验的随机共振的随机性。改善SR输出的内容一致性并加速图像生成过程.
+    
 * SeeSR：
   * paper：https://arxiv.org/pdf/2311.16518.pdf
   * code：https://github.com/cswry/seesr
