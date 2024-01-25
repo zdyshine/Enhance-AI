@@ -7,6 +7,7 @@
   - [3. Video-Interpolation](#3-Video-Interpolation)
   - [4. Diffusion-other](#4-Diffusion-other)
   - [5. BNN Restormer](#5-BNN-Restormer)
+  - [6. All-In-One Restormer](#6-All-In-One Restormer)
 
     
 ###  1. <a name='Image-enhance'></a>Image-enhance
@@ -246,4 +247,10 @@
   * paper：https://openreview.net/pdf?id=3gamyee9Yh
   * code：https://github.com/htqin/QuantSR
   * 简介：二值化图像恢复网络的基本二元卷积单元。
+
+###  6. <a name='All-In-One Restormer'></a>All-In-One Restormer
+* U-WADN (Arxiv 202401)：
+  * paper：https://arxiv.org/pdf/2401.13221.pdf
+  * code：https://github.com/xuyimin0926/U-WADN
+  * 简介：提出了U-WADN框架，该框架包括两个主要组成部分:1.**宽度自适应骨干网（WAB）**：该组件包括多个具有不同宽度的嵌套子网络。其目的是为每个特定任务选择最合适的计算，旨在平衡运行时的准确性和计算效率。2.**宽度选择器（WS）**：对于不同的输入图像，WS自动选择最佳子网宽度。
 
