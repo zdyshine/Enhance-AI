@@ -134,7 +134,7 @@
 
 #### 2.1 Real视频超分
 * Video Dynamics Prior ：
-  * paper：https://www.cs.umd.edu/~gauravsh/files/Neurips_Video_Dynamics_Prior.pdf
+  * paper：https://arxiv.org/pdf/2312.07835.pdf
   * code：-
   * 简介：提出了一种新的框架，用于处理视频中的各种低级视觉任务，如去噪、物体去除、帧内插和超分辨率。
     
