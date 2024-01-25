@@ -7,7 +7,7 @@
   - [3. Video-Interpolation](#3-Video-Interpolation)
   - [4. Diffusion-other](#4-Diffusion-other)
   - [5. BNN Restormer](#5-BNN-Restormer)
-  - [6. All-In-One Restormer](#6-All-In-One Restormer)
+  - [6. All-In-One Restormer](#6-All-In-One-Restormer)
 
     
 ###  1. <a name='Image-enhance'></a>Image-enhance
