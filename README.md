@@ -11,6 +11,11 @@
     
 ###  1. <a name='Image-enhance'></a>Image-enhance
 #### 1.1 Real超分
+* SUPIR (arXiv 202401)：
+  * paper：https://arxiv.org/pdf/2401.13627.pdf
+  * code：https://supir.xpixel.group/
+  * 简介：收集了一个包含2000万张高分辨率、高质量图像的数据集，用于模型训练，每张图像都添加了描述性文本注释。SUPIR提供了由文本提示引导的图像恢复功能，拓宽了其应用范围和潜力。此外，他们还引入了负质量提示，以进一步提高感知质量。他们还开发了一种修复引导采样方法，以抑制在基于生成的修复中遇到的保真度问题。
+    
 * CCSR(arXiv 202401)：
   * paper：https://arxiv.org/pdf/2401.00877.pdf
   * code：https://github.com/csslc/CCSR
