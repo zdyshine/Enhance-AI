@@ -95,6 +95,11 @@
   * 简介：一种单步基于扩散的图像超分辨率新网络，与之前的 SOTA 方法和教师模型相比，本方法只需一个采样步骤即可实现可比甚至更优越的性能，从而实现高达 10 倍的推理加速
 
 #### 1.2 通用超分
+* seemoredetails：
+  * paper：https://arxiv.org/pdf/2402.03412.pdf
+  * code：https://github.com/eduardzamfir/seemoredetails
+  * 简介：我们引入了Seemo Re ，这是一种采用专家挖掘的高效 SR 模型。
+
 * WaveMixSR：
   * paper：https://arxiv.org/pdf/2307.00430v1.pdf
   * code：https://github.com/pranavphoenix/WaveMixSR
