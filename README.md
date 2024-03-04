@@ -144,10 +144,15 @@
 ###  2. <a name='Video-enhance'></a>Video-enhance
 
 #### 2.1 Real视频超分
+* FMA-Net(CVPR2024)：
+  * paper：https://arxiv.org/pdf/2401.03707.pdf
+  * code：https://github.com/KAIST-VICLab/FMA-Net
+  * 简介：提出了一种新的框架，用于处理视频中的各种低级视觉任务，如去噪、物体去除、帧内插和超分辨率。
+
 * Video Dynamics Prior ：
   * paper：https://arxiv.org/pdf/2312.07835.pdf
   * code：-
-  * 简介：提出了一种新的框架，用于处理视频中的各种低级视觉任务，如去噪、物体去除、帧内插和超分辨率。
+  * 简介：提出了一种新联合超分和去模糊的框架。
     
 * Semantic-Lens-AAAI24 ：
   * paper：https://arxiv.org/pdf/2312.09909.pdf
