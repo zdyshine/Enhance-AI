@@ -12,6 +12,11 @@
     
 ###  1. <a name='Image-enhance'></a>Image-enhance
 #### 1.1 Real超分
+* CAMixerSR (arXiv 202402)：
+  * paper：https://arxiv.org/pdf/2402.19289.pdf
+  * code：https://github.com/icandle/camixersr
+  * 简介：一种集成内容感知加速框架和令牌混合器设计的新方法，通过为简单区域分配卷积但为复杂纹理分配窗口注意力来追求更高效的 SR 推理。
+
 * SUPIR (arXiv 202401)：
   * paper：https://arxiv.org/pdf/2401.13627.pdf
   * code：https://supir.xpixel.group/
