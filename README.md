@@ -12,6 +12,10 @@
     
 ###  1. <a name='Image-enhance'></a>Image-enhance
 #### 1.1 Real超分
+* APISR (arXiv 202403)：
+  * paper：https://arxiv.org/pdf/2403.01598.pdf
+  * code：https://github.com/Kiteretsu77/APISR
+  * 简介：动漫超分，基于图像级，退化使用混合退化+视频压缩，训练使用多个混合损失，并针对动漫GT进行纹理增强处理。
 * CAMixerSR (arXiv 202402)：
   * paper：https://arxiv.org/pdf/2402.19289.pdf
   * code：https://github.com/icandle/camixersr
