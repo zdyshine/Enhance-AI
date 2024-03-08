@@ -104,6 +104,11 @@
   * 简介：一种单步基于扩散的图像超分辨率新网络，与之前的 SOTA 方法和教师模型相比，本方法只需一个采样步骤即可实现可比甚至更优越的性能，从而实现高达 10 倍的推理加速
 
 #### 1.2 通用超分
+* ATDSR：
+  * paper：https://arxiv.org/pdf/2401.08209.pdf
+  * code：https://github.com/LabShuHangGU/Adaptive-Token-Dictionary
+  * 简介：向SR Transformer引入了一组辅助的自适应令牌字典，并建立了ATD -SR方法。引入的标记字典可以从训练数据中学习先验信息，并通过自适应细化步骤将学习到的先验信息适应特定的测试图像。细化策略不仅可以为所有输入标记提供全局信息，还可以将图像标记分组为类别。基于类别划分，我们进一步提出了一种基于类别的自注意力机制，旨在利用遥远但相似的标记来增强输入特征。细节还原好
+
 * seemoredetails：
   * paper：https://arxiv.org/pdf/2402.03412.pdf
   * code：https://github.com/eduardzamfir/seemoredetails
