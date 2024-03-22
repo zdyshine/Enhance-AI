@@ -274,6 +274,11 @@
   * 简介：二值化图像恢复网络的基本二元卷积单元。
 
 ###  6. <a name='All-In-One Restormer'></a>All-In-One Restormer
+* NeRD-Rain (CVPR 2024)：
+  * paper：-
+  * code：https://github.com/cschenxiang/NeRD-Rain
+  * 简介：尝试在其他框架上使用
+
 * U-WADN (Arxiv 202401)：
   * paper：https://arxiv.org/pdf/2401.13221.pdf
   * code：https://github.com/xuyimin0926/U-WADN
