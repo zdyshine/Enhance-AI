@@ -13,6 +13,11 @@
     
 ###  1. <a name='Image-enhance'></a>Image-enhance
 #### 1.1 Real超分
+* SED (CVPR 2024)：
+  * paper：https://arxiv.org/pdf/2402.19387.pdf
+  * code：https://github.com/lbc12345/SeD
+  * 简介：新的判别器，可尝试。提出了简单有效的语义感知判别器（表示为 SeD），它鼓励 SR 网络通过引入图像语义作为条件来学习细粒度分布。
+  * 
 * APISR (CVPR 2024)：
   * paper：https://arxiv.org/pdf/2403.01598.pdf
   * code：https://github.com/Kiteretsu77/APISR
