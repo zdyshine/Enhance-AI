@@ -1,18 +1,13 @@
 # Enhance-AI
 开源的图像/视频修复增强算法    
 
-### 摘要翻译: https://kimi.moonshot.cn/chat/cob04jalnl9bmg9ukedg    
-```
-关键词: https://arxiv.org/pdf/2404.05253.pdf 
-我们可以从这篇paper中学到哪些关键的新想法和新知识？
-```
 ### 修复
 #### 包括去噪，去雨，去雾等底层视觉
 
 | time | paper | code | Abstract | task |
+| --- | --- | --- | --- | --- |
 | 2404 | [Mansformer](https://arxiv.org/pdf/2404.06135.pdf) | [code](none) | gated-dconv MLP | 去模糊 |
 | 2404 | [CodeEnhance](https://arxiv.org/pdf/2404.05253.pdf) | [code](none) | 利用量化先验知识 | 暗光增强 |
-
 
 ## 目录
   - [1. Image-enhance](#1-Image-enhance)
