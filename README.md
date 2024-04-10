@@ -1,13 +1,19 @@
 # Enhance-AI
 开源的图像/视频修复增强算法    
 
-### 修复
-#### 包括去噪，去雨，去雾等底层视觉
-
+### 修复/增强
+#### 包括超分，去噪，去雨，去雾等底层视觉
+#### 图像
 | time | paper | code | Abstract | task |
 | --- | --- | --- | --- | --- |
 | 2404 | [Mansformer](https://arxiv.org/pdf/2404.06135.pdf) | [code](none) | gated-dconv MLP | 去模糊 |
 | 2404 | [CodeEnhance](https://arxiv.org/pdf/2404.05253.pdf) | [code](none) | 利用量化先验知识 | 暗光增强 |
+
+#### 视频
+| time | paper | code | Abstract | task |
+| --- | --- | --- | --- | --- |
+| 2404 | [CFDVSR](https://arxiv.org/pdf/2404.06036.pdf) | [code]([none](https://github.com/House-Leo/CFDVSR)) | 提出一个改进帧间对齐的模块，可插入到BasicVSR中 | 视频超分 |
+
 
 ## 目录
   - [1. Image-enhance](#1-Image-enhance)
