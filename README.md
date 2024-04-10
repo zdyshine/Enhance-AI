@@ -12,6 +12,7 @@
 | time | paper | code | Abstract | task | Other |
 | --- | --- | --- | --- | --- | --- |
 | 2404 | [AddSR](https://arxiv.org/pdf/2404.01717.pdf) | [code](https://github.com/NJU-PCALab/AddSR) | 蒸馏加速，感知-失真不平衡 | Real-ISR | 视觉对比上比之前的好一些，待测试 |
+| 2404 | [DeeDSR](https://arxiv.org/pdf/2404.00661.pdf) | [code](https://github.com/bichunyang419/DeeDSR) | 蒸馏加速，感知-失真不平衡 | Real-ISR | 视觉对比上比之前的好一些，待测试 |
 
 
 ### 视频修复/增强
