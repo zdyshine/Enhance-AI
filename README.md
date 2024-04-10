@@ -1,18 +1,23 @@
 # Enhance-AI
 开源的图像/视频修复增强算法    
 
-### 修复/增强
-#### 包括超分，去噪，去雨，去雾等底层视觉
-#### 图像
+### 图像修复/增强
+#### 包括去噪，去雨，去雾等底层视觉
 | time | paper | code | Abstract | task |
 | --- | --- | --- | --- | --- |
 | 2404 | [Mansformer](https://arxiv.org/pdf/2404.06135.pdf) | [code](none) | gated-dconv MLP | 去模糊 |
 | 2404 | [CodeEnhance](https://arxiv.org/pdf/2404.05253.pdf) | [code](none) | 利用量化先验知识 | 暗光增强 |
 
-#### 视频
+#### 超分
+| time | paper | code | Abstract | task | Other |
+| --- | --- | --- | --- | --- | --- |
+| 2404 | [AddSR](https://arxiv.org/pdf/2404.01717.pdf) | [code](https://github.com/NJU-PCALab/AddSR) | 蒸馏加速，感知-失真不平衡 | Real-ISR | 视觉对比上比之前的好一些，待测试 |
+
+
+### 视频修复/增强
 | time | paper | code | Abstract | task |
 | --- | --- | --- | --- | --- |
-| 2404 | [CFDVSR](https://arxiv.org/pdf/2404.06036.pdf) | [code]([none](https://github.com/House-Leo/CFDVSR)) | 提出一个改进帧间对齐的模块，可插入到BasicVSR中 | 视频超分 |
+| 2404 | [CFDVSR](https://arxiv.org/pdf/2404.06036.pdf) | [code](https://github.com/House-Leo/CFDVSR) | 提出一个改进帧间对齐的模块，可插入到BasicVSR中 | 视频超分 |
 
 
 ## 目录
