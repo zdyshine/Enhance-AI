@@ -5,6 +5,7 @@
 #### 包括去噪，去雨，去雾等底层视觉
 | time | paper | code | Abstract | task |
 | --- | --- | --- | --- | --- |
+| 2404 | [FreqMamba](https://arxiv.org/pdf/2404.09476.pdf) | [code](none) | 基于mamba | 去雨 |
 | 2404 | [HSIDMamba](https://arxiv.org/pdf/2404.09697.pdf) | [code](none) | 选择性空间模型 | 高光谱图片修复 |
 | 2404 | [Mansformer](https://arxiv.org/pdf/2404.06135.pdf) | [code](none) | gated-dconv MLP | 去模糊 |
 | 2404 | [CodeEnhance](https://arxiv.org/pdf/2404.05253.pdf) | [code](none) | 利用量化先验知识 | 暗光增强 |
