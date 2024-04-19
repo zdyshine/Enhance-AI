@@ -15,6 +15,7 @@
 #### 超分
 | time | paper | code | Abstract | task | Other |
 | --- | --- | --- | --- | --- | --- |
+| 2404 | [PLKSR](https://arxiv.org/pdf/2404.11848.pdf) | [code](https://github.com/dslisleedh/PLKSR) | 大核，高效 | ISR | 待测试 |
 | CVPR2024 | [AdaBM](https://arxiv.org/abs/2404.03296.pdf) | [code](https://github.com/Cheeun/AdaBM) | 适应量化位宽成功地降低了推理和存储成本 | ISR | 待测试 |
 | 2404 | [AddSR](https://arxiv.org/pdf/2404.01717.pdf) | [code](https://github.com/NJU-PCALab/AddSR) | 蒸馏加速，感知-失真不平衡 | Real-ISR | 视觉对比上比之前的好一些，待测试 |
 | 2404 | [DeeDSR](https://arxiv.org/pdf/2404.00661.pdf) | [code](https://github.com/bichunyang419/DeeDSR) | 蒸馏加速，感知-失真不平衡 | Real-ISR | 视觉对比上比之前的好一些，待测试 |
