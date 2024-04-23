@@ -5,6 +5,7 @@
 #### 包括去噪，去雨，去雾等底层视觉
 | time | paper | code | Abstract | task |
 | --- | --- | --- | --- | --- |
+| 2404 | [MambaUIE](https://arxiv.org/ftp/arxiv/papers/2404/2404.13884.pdf) | [code](https://github.com/1024AILab/MambaUIE) | 基于mamba, 2.8 FLOPs | 水下图增强 |
 | 2404 | [FreqMamba](https://arxiv.org/pdf/2404.09476.pdf) | [code](none) | 基于mamba | 去雨 |
 | 2404 | [HSIDMamba](https://arxiv.org/pdf/2404.09697.pdf) | [code](none) | 选择性空间模型 | 高光谱图片修复 |
 | 2404 | [Mansformer](https://arxiv.org/pdf/2404.06135.pdf) | [code](none) | gated-dconv MLP | 去模糊 |
