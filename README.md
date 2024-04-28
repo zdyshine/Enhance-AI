@@ -25,6 +25,7 @@
 ### 视频修复/增强
 | time | paper | code | Abstract | task |
 | --- | --- | --- | --- | --- |
+| 2404 | [ColorMNet](https://arxiv.org/pdf/2404.06251) | [code](https://github.com/yyang181/colormnet) | 多个模块利用时间序列信息，高效| 视频上色 |
 | 2404 | [RStab](https://arxiv.org/pdf/2404.12887.pdf) | [code](None) | 视频生成+VSR模型| 视频超分 |
 | 2404 | [VideoGigaGAN](https://arxiv.org/pdf/2404.12388.pdf) | [code](https://videogigagan.github.io/) | 3D多帧视角来生成稳定的图像| 视频稳定 |
 | 2404 | [CFDVSR](https://arxiv.org/pdf/2404.06036.pdf) | [code](https://github.com/House-Leo/CFDVSR) | 提出一个改进帧间对齐的模块，可插入到BasicVSR中 | 视频超分 |
