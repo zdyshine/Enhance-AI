@@ -42,6 +42,7 @@
 ## 数据集
     https://github.com/IndigoPurple/ART    
     https://github.com/KAIST-VICLab/FMA-Net
+    https://github.com/INVOKERer/AdaRevD
 ###  1. <a name='Image-enhance'></a>Image-enhance
 #### 1.1 Real超分
 * SED (CVPR 2024)：
