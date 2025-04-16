@@ -2,6 +2,9 @@
 ### 扩散训练   
 #### https://github.com/joanrod/star-vector
 
+### 感知损失loss
+#### https://github.com/umzi2/CLP
+
 ### 图像修复/增强
 #### 包括去噪，去雨，去雾等底层视觉
 
